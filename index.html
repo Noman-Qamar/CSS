@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="GET" action="/processor">
+        <h1>Buy Tickets to the Web Developer Gala</h1>
+        <p>"Tickets are $10 each. Dinner packages are an extra 5$. All fields are required.
+        </p>
+        <fieldset>
+            <legend>Tickets and Add-ons</legend>
+            <p>
+                <label for="quantity">Number of Tickets</label>
+                <span class="help">Limit 8</span>
+                <input type="number" value="1" name="quantity" id="quantity" min="1" max="8">
+            </p>
+            <p>
+                <label for="dinner">Dinner Packages</label>
+                <span class="help">Serves 2</span>
+                <input type="number" id="dinner" value="2" name="dinner" min="1" max="8">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Payment</legend>
+            <p>
+                <label for="ccn">Credit card number</label>
+                <span class="help">No spaces or dashes, please</span>
+                <input type="text" name="ccn" id="ccn" placeholder="37000000000008" maxlength="16" size="16">
+            </p>
+            <p>
+                <label for="expiration">Expiration date</label>
+                <span class="help"> <abbr title="Two digit month">MM</abbr>/<abbr
+                        title="Four digit year">YYYY</abbr></span>
+                <input type="text" name="expiration" id="expiration" placeholder="01/2008" maxlength="7" size="7">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Billing Address</legend>
+            <p>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="ex: Noman Qamar" size="40">
+            </p>
+            <p>
+                <label for="street">Street Address</label>
+                <input type="text" name="street" id="street" placeholder="ex: 1234 Main Street" size="40">
+            </p>
+            <p>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" placeholder="ex: any town">
+            </p>
+            <p>
+                <label for="state">State</label>
+                <input type="text" name="state" id="state" placeholder="CA" maxlength="2" size="2" pattern="[A-W]{2}">
+            </p>
+            <p>
+                <label for="zip">Name</label>
+                <input type="text" name="zip" id="zip" placeholder="12345" maxlength="5" size="5" pattern="[0-9]{5}">
+            </p>
+        </fieldset>
+        <button type="submit">Buy Tickets</button>
+    </form>
+    <details>
+        <summary>What is HTML?</summary>
+        <p>HTML stands for HyperText Markup Language.</p>
+    </details>
+
+    <a href="#box1">Open Box 1</a>
+    <a href="#box2">Open Box 2</a>
+
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+    <br>
+
+<div id="nth-wrap" class="item">
+    <div class="nth-item">1</div>
+    <div class="nth-item">2</div>
+    <div class="nth-item">3</div>
+    <div class="nth-item">4</div>
+    <div class="nth-item">5</div>
+    <div class="nth-item">6</div>
+    <div class="nth-item">7</div>
+    <div class="nth-item">8</div>
+    <div class="nth-item">9</div>
+    <div class="nth-item">10</div>
+    <div class="nth-item">11</div>
+    <div class="nth-item">12</div>
+    <div class="nth-item">13</div>
+    <div class="nth-item">14</div>
+    <div class="nth-item">15</div>
+    <div class="nth-item">16</div>
+    <div class="nth-item">17</div>
+    <div class="nth-item">18</div>
+    <div class="nth-item">19</div>
+    <div class="nth-item">20</div>
+    <div class="nth-item">21</div>
+    <div class="nth-item">22</div>
+    <div class="nth-item">23</div>
+    <div class="nth-item">24</div>
+    <div class="nth-item">25</div>
+</div>
+</body>
+
+</html>
