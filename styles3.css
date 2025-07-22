@@ -1,0 +1,54 @@
+#a {
+    background: rgba(233, 30, 99, 0.5);
+}
+
+#b,#c,#d,#e {
+    position: absolute;
+}
+
+#b {
+    background: rgba(103, 58, 183, 0.8);
+    bottom: 120px;
+    width: 410px;
+    z-index: 2;
+}
+
+#c {
+    background: rgba(255, 235, 59, 0.8);
+    top: 190px;
+    z-index: 1;
+}
+
+#d {
+    background: #03a9f4;
+    height: 500px;
+    top: 10px;
+    z-index: -1;
+}
+
+#e {
+    background: rgba(255, 87, 34, 0.7);
+    top: 110px;
+    z-index: 1;
+}
+#f,
+#g {
+    position: absolute;
+}
+
+#f {
+    background: rgba(255, 193, 7, .9);
+}
+
+#f p {
+    background: rgb(34, 34, 34);
+    color: whitesmoke;
+    position: relative;
+    z-index: 1;
+}
+
+#g {
+    background: rgba(3, 169, 244, .7);
+    top: 50px;
+    left: 100px;
+}
